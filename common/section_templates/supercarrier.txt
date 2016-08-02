@@ -1,0 +1,113 @@
+ship_section_template = {
+	key = "SUPERCARRIER_BOW_H2"
+	ship_size = supercarrier
+	fits_on_slot = bow
+	entity = "supercarrier_bow_H_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "HANGAR_01"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar_01" 
+		rotation = 15
+	}
+		component_slot = {
+		name = "HANGAR_02"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar02"
+	}
+	large_utility_slots = 4
+	
+	cost = 30
+	max_hitpoints = 3000
+	
+	ship_modifier = {
+		ship_armor_add = 500
+	}
+}
+ship_section_template = {
+	key = "SUPERCARRIER_MID_1_H4"
+	ship_size = supercarrier
+	fits_on_slot = mid1
+	entity = "supercarrier_mid_1_H_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "HANGAR_01"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar01"
+	}
+		component_slot = {
+		name = "HANGAR_02"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar02"
+	}
+		component_slot = {
+		name = "HANGAR_03"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar03"
+	}
+		component_slot = {
+		name = "HANGAR_04"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar04"
+	}
+	large_utility_slots = 7
+	
+	cost = 30
+
+}
+ship_section_template = {
+	key = "SUPERCARRIER_MID_2_H2"
+	ship_size = supercarrier
+	fits_on_slot = mid2
+	entity = "supercarrier_mid_2_H_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "HANGAR_01"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar01"
+	}
+		component_slot = {
+		name = "HANGAR_02"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar01"
+	}
+	large_utility_slots = 4
+	
+	cost = 30
+
+}
+ship_section_template = {
+	key = "SUPERCARRIER_STERN_H2"
+	ship_size = supercarrier
+	fits_on_slot = stern
+	entity = "supercarrier_stern_H_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	component_slot = {
+		name = "HANGAR_01"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar01"
+	}
+		component_slot = {
+		name = "HANGAR_02"
+		slot_size = large
+		slot_type = strike_craft
+		locatorname = "hangar01"
+	}
+	large_utility_slots = 4
+	
+	cost = 30
+
+}
