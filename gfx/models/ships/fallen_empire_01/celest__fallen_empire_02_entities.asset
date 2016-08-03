@@ -1,0 +1,48 @@
+
+
+entity = {
+	name = "fallen_empire_02_upgraded_transport_ship_entity"
+	pdxmesh = "fallen_empire_02_civilian_mesh"
+	scale = 0.8
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }	
+		event = { time = 0 node = "engine_large_03" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }	
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_3_35_exhaust_idle_particle" trigger_once = yes keep_particle = yes }	
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_fallen_empire_civilship_01" } }		
+	}
+	state = { name = "moving" state_time = 5
+		event = { time = 0 node = "light_locator_01" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "light_locator_02" particle = "ship_light_blue_effect" keep_particle = yes trigger_once = yes }
+		event = { time = 0 node = "engine_large_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }	
+		event = { time = 0 node = "engine_large_03" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_large_04" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_01" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_02" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_03" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }
+		event = { time = 0 node = "engine_medium_04" particle = "mammalian_01_3_35_ship_exhaust_moving_particle" trigger_once = yes keep_particle = yes }	
+	}
+	state = { name = "death"						state_time = 10 looping = no 	
+		event = { time = 0.0 node = "cons_explosion_locator1" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 1.4 node = "cons_explosion_locator7" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 1.0 node = "cons_explosion_locator10" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 1.6 node = "cons_explosion_locator2" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 1.9 node = "cons_explosion_locator9" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 2.1 node = "cons_explosion_locator8" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 2.83 node = "cons_explosion_locator3" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 3.26 node = "cons_explosion_locator4" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 3.9 node = "cons_explosion_locator5" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+		event = { time = 4.1 node = "cons_explosion_locator6" particle = "ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}	
+}
+
+

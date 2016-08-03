@@ -1,0 +1,6 @@
+
+entity = {
+	name = "ai_01_upgraded_transport_ship_ai_entity"
+	pdxmesh = "fallen_empire_01_civilian_mesh"
+	scale = 0.55
+}
