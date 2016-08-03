@@ -1,0 +1,46 @@
+﻿l_english:
+
+#################################################################################
+
+## Written By: Haddix
+
+## -----> Please credit me on anything you take from my work. Thanks! <------
+
+#################################################################################
+
+## Localization begins here
+
+
+def_slave_army:0 "Defending Slave Army"
+def_slave_army_plural:0 "Defending Slave Armies"
+def_slave_army_desc:0 "Slave soldiers who serve their masters on the battlefield. Most are conscripted by force, but many slaves volunteer in a desperate attempt to increase their food rations or escape from grueling labor."
+def_clone_army:0 "Defending Clone Army"
+def_clone_army_plural:0 "Defending Clone Armies"
+def_clone_army_desc:0 "Vat-grown clones that reach adulthood in a matter of months. With a natural lifespan of less than a decade, their lack of personal initiative is deemed an acceptable trade-off for their total obedience to officers."
+def_robotic_army:0 "Defending Robotic Army"
+def_robotic_army_plural:0 "Defending Robotic Armies"
+def_robotic_army_desc:0 "Cold and heartless killing-machines designed only for war. They pursue their objectives relentlessly, and are impervious to the shattering effects of poor morale that so often plague organic combat units."
+def_android_army:0 "Defending Android Army"
+def_android_army_plural:0 "Defending Android Armies"
+def_android_army_desc:1 "Semi-autonomous cogs in a well-oiled war machine, android combatants are more resilient, aggressive, and responsive to changing battlefield conditions than their robotic predecessors."
+def_psionic_army:0 "Defending Psionic Army"
+def_psionic_army_plural:0 "Defending Psionic Armies"
+def_psionic_army_desc:0 "Soldiers gifted with psionic abilities. Their focus on destructive psionic powers has led to drastically different tactics and strategies on the battlefield - their first objective is always to remove the enemy's willingness to fight."
+def_xenomorph_army:0 "Defending Xenomorph Army"
+def_xenomorph_army_plural:0 "Defending Xenomorph Armies"
+def_xenomorph_army_desc:0 "Ravenous hordes of bio-engineered horrors made up of little more than teeth, claws and an instinctive urge to kill. A cadre of scientists monitor and supervise the raging swarms as best they can from hardened bunkers behind the front."
+def_gene_warrior_army:0 "Defending Gene Warrior Army"
+def_gene_warrior_plural:0 "Defending Gene Warrior Armies"
+def_gene_warrior_army_desc:0 "Genetically enhanced super soldiers. Recruits are typically chosen from the elite of the conventional military forces. These then undergo extensive gene therapy, and are made larger, stronger and faster than their former peers."
+
+res_titanic_assault_army:0 "Titanic Beast"
+res_titanic_assault_army_plural:0 "Titanic Beasts"
+res_titanic_assault_army_desc:0 "This Titanic Beast is a vastly powerful fighter."
+res_titanic_guardian_army:0 "Titanic Guardian"
+res_titanic_guardian_army_desc:0 "While less aggressive than the Titanic Beast, the Titanic Guardian is still a powerful defensive fighter."
+gen_titanic_assault_army:0 "Gene-Titan Beast"
+gen_titanic_assault_army_plural:0 "Gene-Titan Beasts"
+gen_titanic_assault_army_desc:0 "Genetically enhanced Titan life forms purely bred for war."
+gen_titanic_guardian_army:0 "Gene-Titanic Guardian"
+gen_titanic_guardian_army_plural:0 "Gene-Titanic Guardians"
+gen_titanic_guardian_army_desc:0 "Gene-Titanic Guardian"
