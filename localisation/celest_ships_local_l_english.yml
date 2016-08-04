@@ -1,0 +1,159 @@
+﻿l_english:
+
+#################################################################################
+
+## Written By: Haddix and mod team of "Celestial Workings"
+### But mainly | Dude above little arrow thing
+###            | 
+###            |
+
+## -----> Please credit me on anything you take from my work. Thanks! <------
+
+#################################################################################
+
+## Localization begins here
+
+
+##################
+##  Misc Ships  ###############################################################################################
+##################
+
+
+upgraded_transport_ship:0 "Upgraded Transport Ship"
+upgraded_transport_ship_DESC:0 "The upgraded version of the normal transport ship."
+upgraded_transport_ship_plural:0 "Upgraded Transport Ships"
+UPGRADED_TRANSPORT_SECTION:0 "Standard Upgraded Transport Ship Section" 
+
+
+#########################
+##  Early Range Ships  #############Set 1##################################################################################
+#########################
+
+
+scout:0 "Scout"
+scout_pural:0 "Scout Ships"
+scout_desc:0 "A small ship designed to move quickly while gathering data of the surrounding area."
+
+stealthy_scout:0 "Stealthy Scout Ship"
+stealthy_scout_pural:0 "Stealthy Scout Ships"
+stealthy_scout_desc:0 "A Variant of the Scout ship.\nThese ships where designed with stealth in mind, so they can infiltrate enemy territory and gather data while unseen."
+
+explorer:0 "Explorer"
+explorer_pural:0 "Explorers"
+explorer_desc:0 "A Variant of the Scout ship.\nThis small ship is designed to travel quickly and survey worlds to gather enough basic information, enough to settle or mine."
+
+interceptor:0 "Interceptor"
+interceptor_pural:0 "Interceptors"
+interceptor_desc:0 "A Variant of the Corvette.\nThis variant of the corvette is weaker but makes up for it by its amazing speed."
+
+frigate:0 "Frigate"
+frigate_pural:0 "Frigates"
+frigate_desc:0 "These ships are the first of their kind to use medium class weapon types. Albeit slow they make up by providing a decent punch to the enemy."
+
+escort:0 "Escort Ship"
+escort_pural:0 "Escort Ships"
+escort_desc:0 "Many civilian ships are left unguarded and are thus attacked by pirates and end up destroyed. This ship is designed to end that, with access to the medium weapon type, it's going to scare off potential attackers."
+
+guardian:0 "Guardian"
+guardian_pural:0 "Guardians"
+guardian_desc:0 "A Variant of the Escort Ship.\nThis ship is designed to protect important diplomats and to make up for it, has access to weaponry only available to ships of its type."
+
+destroyer:0 "Destroyer"
+destroyer_pural:0 "Destroyers"
+destroyer_desc:0 "Destroyers are the link between small and mid sized class ships. These ships are perfect for dealing with a couple small ships that are up to no good."
+#### Refrence there.
+
+
+#######################
+##  Mid-Range Ships  ###############Set 2################################################################################
+#######################
+
+
+cruiser:0 "Cruiser"
+cruiser_pural:0 "Cruisers"
+cruiser_desc:0 "These ships are the best way to end border skirmishes and disputes between differing parties."
+
+light_cruiser:0 "Light Cruiser"
+light_cruiser_pural:0 "Light Cruisers"
+light_cruiser_desc:0 "A Variant of the Cruiser.\nThis is the lighter variant which is equipped to be a rapid response unit to any sort of crisis."
+
+heavy_cruiser:0 "Heavy Cruiser"
+heavy_cruiser_pural:0 "Heavy Cruisers"
+heavy_cruiser_desc:0 "A Variant of the Cruiser.\nThe Heavy Cruiser is meant for situations where the conventional methods are not working, such as larger scale disputes or skirmishes between many parties."
+
+battlecruiser:0 "Battlecruiser"
+battlecruiser_pural:0 "Battlecruisers"
+battlecruiser_desc:0 "When dealing with foes that need an extra UMPH, this ship comes in handy as it is the bridge between smaller ship sizes and larger military vessels."
+
+battleship:0 "Battleship"
+battleship_pural:0 "Battleships"
+battleship_desc:0 "The first major undertaking to construct such a vessel of this status. No ship before it has approached the level of power that is contained behind these walls."
+
+warship:0 "Warship"
+warship_pural:0 "Warships"
+warship_desc:0 "A Variant of the Battleship.\nThis ship was desined for one purpose only; Destruction."
+
+carrier:0 "Carrier"
+carrier_pural:0 "Carriers"
+carrier_desc:0 "!!!!!!NEEDS A DESCRIPTION!!!!! IF YOU NOTICE THIS THAN PLEASE REPORT IT. THANK YOU!!!!!"
+
+super_carrier:0 "Super Carrier"
+super_carrier_pural:0 "Super Carriers"
+super_carrier_desc:0 "A Variant of the Carrier.\nThis variant has been redesigned to carry twice the amount of fighter pilots and ships."
+
+mother_ship:0 "Mother Ship"
+mother_ship_pural:0 "Mother Ships"
+mother_ship_desc:0 "A Variant of the Carrier.\nThe ultimate form to transport fighter ships and pilots anywhere in the galaxy."
+
+
+#######################
+##  End Range Ships  ###############Set 3################################################################################
+#######################
+
+
+dreadnaught:0 "Dreadnaught"
+dreadnaught_pural:0 "Dreadnaughts"
+dreadnaught_desc:0 "The Dreadnaught, a ship that shows how powerful there potential truly is. "
+#### Needs a better desc
+
+flagship:0 "Flagship"
+flagship_pural:0 "Flagships"
+flagship_desc:0 "This ship is the top of the line, its prowess is unmatched in all the galaxy. Many civilians marval over it when in sight."
+
+titan:0 "Titan"
+titan_pural:0 "Titans"
+titan_desc:0 "When these ships where first introduced, they shocked the military world with its mere power."
+### Needs a new and improved desc
+
+collossal_titan_ship:0 "Collossal Titan"
+collossal_titan_pural:0 "Collossal Titans"
+collossal_titan_desc:0 "A Variant of the Titan.\nThis collossal variant of the Titan, scales up everything with it, including firepower."
+#### Needs a better desc -- I think
+
+leviathan:0 "Leviathan"
+leviathan_pural:0 "Leviathans"
+leviathan_desc:0 "This is the final frontier, no other ship can match up to it in either scale nor firepower. When ships if this magnitude enter the fray, many retreat in utter fear."
+
+## Fin!
+
+#######################################################################################
+
+### God....that took forever. Thank the lord that I'm done ( Wrote this at halfway point for the Mid-range ships, lol)
+
+## I'll update when completely done.
+
+## Just finished the mid-range ships, holy shit....its alot of writting
+
+## Well, i'll write again when i am comeplete the end-range ships, I'm off. Peace.
+
+## Thats everthing done. But for some of them i need to change it. Hopefully a nights sleep will help.
+
+## Anywho, thats me.
+
+## Screw sleep...I'm just ironing out some details.....
+
+
+
+### End of local for ships
+
+## Cheers!
