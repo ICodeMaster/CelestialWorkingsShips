@@ -10,7 +10,7 @@ ship_behavior = {
 	name = "fighters_behavior"
 	preferred_attack_range = max
 	#then here it is used i can add a number
-	formation_distance = 35
+	formation_distance = 55
 	return_to_formation_distance = 10
 
 	attack_move_pattern = charge
@@ -32,11 +32,11 @@ ship_behavior = {
 ship_behavior = {
 	name = "bombers_behavior"
 	preferred_attack_range = max
-	formation_distance = @engagement_range
-	return_to_formation_distance = @return_range
+	formation_distance = 200
+	return_to_formation_distance = 35
 	
 	attack_move_pattern = charge
-	passive_move_pattern = follow
+	passive_move_pattern = charge
 		
 	targeting = {
 		keep_previous_target_bonus		= 100		#flat bonus for keeping previous target
