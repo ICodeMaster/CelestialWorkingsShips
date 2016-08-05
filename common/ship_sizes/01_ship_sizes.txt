@@ -28,6 +28,38 @@
 # STANDARD #
 ############
 
+
+scout = {
+	max_speed = 5.25
+	acceleration = 0.35
+	rotation_speed = 0.1
+	combat_max_speed = @corvette_combat_speed
+	combat_rotation_speed = @corvette_combat_rotation
+	collision_radius = @corvette_collision_radius
+	modifier = {
+		ship_armor_add = 3
+	}
+	max_hitpoints = 300
+	size_multiplier = 1
+	fleet_slot_size = 1
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 2
+	is_space_station = no
+	icon_frame = 2
+	base_buildtime = 60
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start	
+	
+	prerequisites = { "tech_spaceport_1" }
+	
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+	required_component_set = "weapons_flak"
+}
+
 supercarrier = {
 	max_speed = 3
 	acceleration = 0.2

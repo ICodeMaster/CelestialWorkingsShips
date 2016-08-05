@@ -1,5 +1,26 @@
 objectTypes = {
 	pdxmesh = {
+		name = "scout_s1_mesh"
+		file = "gfx/models/ships/scout_s1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "|scout|scout"
+			index = 0
+			texture_diffuse = "icode_scout_diffuse.dds"
+			texture_normal = "icode_scout_normal.dds"
+			texture_specular = "icode_scout_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	
+		
+	}
+		pdxmesh = {
+		name = "scout_mesh"
+		scale = 1.0
+
+	}
+	pdxmesh = {
 		name = "supercarrier_bow_H_mesh"
 		file = "gfx/models/ships/icode_supercarrier_bow_h.mesh"
 		scale = 1.0
