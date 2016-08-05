@@ -46,3 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 readme .txt
+<<<<<<< HEAD
+=======
+Credits .txt
+README.md
+>>>>>>> refs/remotes/origin/master
