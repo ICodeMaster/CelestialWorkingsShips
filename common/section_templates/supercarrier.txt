@@ -16,7 +16,7 @@ ship_section_template = {
 		name = "HANGAR_02"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar02"
+		locatorname = "hangar_02"
 	}
 	large_utility_slots = 4
 	
@@ -38,25 +38,25 @@ ship_section_template = {
 		name = "HANGAR_01"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar01"
+		locatorname = "hangar_01"
 	}
 		component_slot = {
 		name = "HANGAR_02"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar02"
+		locatorname = "hangar_02"
 	}
 		component_slot = {
 		name = "HANGAR_03"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar03"
+		locatorname = "hangar_03"
 	}
 		component_slot = {
 		name = "HANGAR_04"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar04"
+		locatorname = "hangar_04"
 	}
 	large_utility_slots = 7
 	
@@ -74,13 +74,13 @@ ship_section_template = {
 		name = "HANGAR_01"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar01"
+		locatorname = "hangar_01"
 	}
 		component_slot = {
 		name = "HANGAR_02"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar01"
+		locatorname = "hangar_01"
 	}
 	large_utility_slots = 4
 	
@@ -98,13 +98,13 @@ ship_section_template = {
 		name = "HANGAR_01"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar01"
+		locatorname = "hangar_01"
 	}
 		component_slot = {
 		name = "HANGAR_02"
 		slot_size = large
 		slot_type = strike_craft
-		locatorname = "hangar01"
+		locatorname = "hangar_01"
 	}
 	large_utility_slots = 4
 	
