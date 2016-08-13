@@ -1,0 +1,5 @@
+entity = {
+	name = "avian_01_gunship_entity"
+	pdxmesh = "avian_01_bomber_mesh"
+    scale = 1.0
+}

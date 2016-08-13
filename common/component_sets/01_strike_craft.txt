@@ -1,0 +1,7 @@
+
+component_set = {
+	key = "GUNSHIP_HANGAR_3"
+	
+	icon = "GFX_ship_part_strike_craft_bomber_3"
+	icon_frame = 1	
+}

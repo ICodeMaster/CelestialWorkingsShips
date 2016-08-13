@@ -1,0 +1,6 @@
+entity = {
+	name = "arthropoid_01_gunship_entity"
+	pdxmesh = "arthropoid_01_bomber_mesh"
+    scale = 1.0
+}
+
