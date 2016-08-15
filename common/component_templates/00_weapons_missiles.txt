@@ -17,7 +17,7 @@
 weapon_component_template = {
 	key = "MEDIUM_MISSILE_1"
 	size = medium
-	entity = "turret_missile_medium_entity"
+	entity = "launcher_missle1_entity"
 	
 	icon = "GFX_ship_part_missile_1"
 	icon_frame = 1

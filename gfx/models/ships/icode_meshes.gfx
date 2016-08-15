@@ -1,3 +1,4 @@
+######### Scout ###############
 objectTypes = {
 	pdxmesh = {
 		name = "scout_s1_mesh"
@@ -20,6 +21,7 @@ objectTypes = {
 		scale = 1.0
 
 	}
+############### Supercarrier ##################	
 	pdxmesh = {
 		name = "supercarrier_bow_H_mesh"
 		file = "gfx/models/ships/icode_supercarrier_bow_h.mesh"
@@ -69,6 +71,16 @@ objectTypes = {
 			index = 0
 			texture_diffuse = "icode_supercarrier_diffuse.dds"
 			texture_normal = "icode_supercarrier_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+################### Covette Launcher ####################
+	pdxmesh = {
+		name = "corvette_Launcher_mesh"
+		file = "gfx/models/ships/corvette_M1S1.mesh"
+		scale = 1.0
+		meshsettings = {
 			shader = "PdxMeshShip"
 		}
 	}

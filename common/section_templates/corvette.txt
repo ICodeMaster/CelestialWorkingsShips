@@ -118,3 +118,57 @@ ship_section_template = {
 	
 	cost = 30
 }
+
+ship_section_template = {
+	key = "CORVETTE_MID_L"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_Launcher_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	# Unused by AI
+	ai_weight = {
+		factor = 0
+	}
+	
+	component_slot = {
+		name = "LAUNCHER_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_01"
+	}
+	component_slot = {
+		name = "LAUNCHER_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_02"
+	}
+		component_slot = {
+		name = "LAUNCHER_03"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_03"
+	}
+		component_slot = {
+		name = "LAUNCHER_04"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_04"
+	}
+		component_slot = {
+		name = "LAUNCHER_05"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_05"
+	}
+		component_slot = {
+		name = "LAUNCHER_06"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "launcher_06"
+	}
+	small_utility_slots = 2
+	medium_utility_slots = 3
+	
+	cost = 30
+}
