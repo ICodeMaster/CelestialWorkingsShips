@@ -1,0 +1,66 @@
+#ai_weight - checks that required resources are available by AI will be made in code for performance reasons
+
+#modifiers that can be added from modules
+#"modifier", category: MODIFIER_CATEGORY_SPACEPORT. things that affect the builder part of the spaceport. like construction costs and speeds
+#"orbit_modifier", category: MODIFIER_CATEGORY_FLEET | MODIFIER_CATEGORY_SHIP. applied on all orbiting fleets and ships
+#"planet_modifier", category: MODIFIER_CATEGORY_PLANET | MODIFIER_CATEGORY_POP | MODIFIER_CATEGORY_TILE. affects the planet
+#"station_modifier", category: MODIFIER_CATEGORY_FLEET | MODIFIER_CATEGORY_SHIP. affects the ship part of the spaceport. like health and armor
+#"ship_modifier", category: MODIFIER_CATEGORY_SHIP. affects all ships that are built by this space port
+
+#fallen_empire_weapon = {
+#	icon = "GFX_spaceport_modules"
+#	icon_frame = 2
+#	initial = yes
+#	initial_only = yes
+#	replaceable = no
+#	section = "CORE_SPACEPORT_SECTION"
+#	component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+#	potential = {
+#		owner = {
+#			is_country_type = "fallen_empire"
+#		}
+#	}
+#	ai_weight = { weight = 0 }
+#}
+
+trade_station_1 = {
+	icon = "GFX_spaceport_module_dark_matter_factory"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_mine_living_metal" }
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 150
+	}
+
+	required_resources = {
+		minerals = 4
+	}
+	
+	produced_resources = {
+		physics_research = 3
+		energy = 3
+	}
+	
+	effect = {
+			set_planet_flag = trade_post
+	}
+	
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 7 ####
+#################
+

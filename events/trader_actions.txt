@@ -1,0 +1,285 @@
+#################################
+#
+# Nomad Events
+# by Niclas Karlsson & Maximilian Olbers
+#
+#################################
+
+namespace = tradeaction
+##### Trade Initalizaion #######
+country_event = {
+	id = tradeaction.00
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { exists = event_target:trader_country }
+	}
+
+	immediate = {
+			create_country = {
+				name = "Trader Guild"
+				type = tradercountry
+				species = random
+				auto_delete = no
+				government = enlightened_monarchy
+				flag = {
+					icon = {
+						category = "spherical"
+						file = "flag_spherical_8.dds"
+					}
+					background= {
+						category = "backgrounds"
+						file = "circle.dds"
+					}
+					colors={
+						"purple"
+						"indigo"
+						"null"
+						"null"
+					}
+				}
+			}
+			last_created_country = {
+				set_country_flag = trader_country_flag
+				save_global_event_target_as = trader_country
+			}
+			every_country = {
+				limit = {
+					is_country_type = default
+				}
+				establish_communications_no_message = last_created_country
+			}
+			random_system = {
+				event_target:trader_country = {
+					create_fleet = {name = "Trading HQ"}
+					last_created_fleet = {
+						set_owner = prev
+						set_fleet_stance = passive
+						set_aggro_range_measure_from = self
+						set_aggro_range = 50
+						create_ship = {
+							name = "Caravan_Gaurd"
+							design = "Caravan_Gaurd"
+						}
+						set_location = prevprev
+					}
+						
+					}
+				}
+			}
+	option = {
+		name = ok
+	}
+}
+##### Picking Spawn #####
+country_event = {
+	id = tradeaction.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+	
+	}
+
+	immediate = {
+		random_owned_planet = {
+			limit = { 
+				AND = {
+					has_spaceport = yes
+					has_spaceport_module = trade_station_1
+				}
+			}
+			planet_event = {
+				id = tradeaction.3
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = ok
+	}
+}
+#### Fleet Initialization #####
+planet_event = {
+	id = tradeaction.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		if = {
+			limit = {
+				planet = {
+					has_spaceport_module = trade_station_1
+				}
+			}
+		}
+		## and allows free trade
+	}
+
+	immediate = {
+			ROOT = {
+				set_timed_planet_flag = {
+					flag = trader_depleted_flag
+					days = 600
+				}
+			}
+			create_fleet = { name = "Trading Fleet" }
+			last_created_fleet = {
+					set_owner = event_target:trader_country
+					#set_owner = from
+					set_fleet_stance = passive
+					set_aggro_range_measure_from = self
+					set_aggro_range = 50
+					create_ship = {
+						name = "Caravan_Gaurd"
+						design = Caravan_Gaurd
+					}
+					create_ship = {
+						name = "Caravan_Gaurd"
+						design = Caravan_Gaurd
+					}
+					create_ship = {
+						name = "Barge"
+						design = Diaspora
+					}
+					set_location = ROOT
+					set_formation_scale = 1.6
+					set_fleet_flag = from
+					set_fleet_flag = root
+				}
+			last_created_fleet = { fleet_event = { id = tradeaction.50 days = 1 } }
+			last_created_fleet = { fleet_event = { id = tradeaction.4 days = 2 } }
+			
+	}
+	option = {
+		name = ok
+	}
+}
+#### Intranation Fleet Handler #####
+fleet_event = {
+	id = tradeaction.4
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+				NOT = {
+					has_fleet_flag = trader_in_transit
+				}
+	}
+	
+	immediate = {
+		clear_fleet_actions = this
+			SPACE_OWNER = {
+				random_owned_planet = {
+					limit = {
+						AND = {
+							has_spaceport = yes
+							has_spaceport_module = trade_station_1
+							NOT = {has_planet_flag = trader_depleted_flag }
+							NOT = {
+								distance = {
+									source = ROOT
+									min_distance = 1
+								}
+							
+							}
+						}
+					}
+					SOLAR_SYSTEM  = {
+					save_event_target_as = trader_destination_system
+					}
+					save_event_target_as = trader_destination_planet
+				}
+			}
+			if = {
+				limit = {
+					event_target:trader_destination_planet = {
+					NOT = {has_planet_flag = trader_depleted_flag }
+					}
+				}
+				clear_fleet_actions = this
+				queue_actions = {
+					move_to = event_target:trader_destination_system
+					orbit_planet = event_target:trader_destination_planet
+					wait = 10
+					effect = {
+						id = tradeaction.4.delievery.1
+						any_planet = {
+							limit = {
+								has_fleet_flag = this
+							}
+							save_event_target_as = fleet_home_planet
+							}
+						ROOT = {
+							space_owner ={
+								if = {
+									limit = {
+										event_target:fleet_home_planet = {
+											has_spaceport_module = trade_station_1
+										}
+									}
+									random_list = {
+										50 = {
+											add_minerals = 100
+										}
+										50 = {
+											add_energy = 50
+										}
+									}
+									add_influence = 10
+								}
+							}
+							event_target:trader_destination_planet = {
+								set_timed_planet_flag = {
+									flag = trader_depleted_flag
+									days = 600
+								}
+							}
+						}
+					}
+					wait = 15
+					effect = {
+						id= tradeaction.4.newport.1
+						fleet_event = { id = tradeaction.4 days = 3}
+					}
+				}
+				else = {
+					clear_fleet_actions = this
+					queue_actions = {
+					wait = 4
+					effect = {
+						id= tradeaction.4.newport.2
+					fleet_event = { id = tradeaction.4 days = 3}
+					}
+				}
+			}
+			break = yes
+		}
+	}
+}
+##### Updates Ship Fleet Sizes ######
+fleet_event = {
+	id = tradeaction.50
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		any_planet = {
+			limit = {
+				has_fleet_flag = this
+			}
+			save_event_target_as = fleet_home_planet
+		}
+		if = {
+			limit = {
+				event_target:fleet_home_planet = {
+					has_spaceport_module = trade_station_1
+				}
+			}
+			create_ship = {
+				name = "Caravan_Gaurd"
+				design = Caravan_Gaurd
+			}
+		}
+	}
+}

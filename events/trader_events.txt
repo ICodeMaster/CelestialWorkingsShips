@@ -1,0 +1,77 @@
+#################################
+#
+# Trader Events
+# by ICodeMaster
+#
+#################################
+
+namespace = trading
+
+
+planet_event = {
+	id = trading.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		if = {
+			limit = {
+				planet = {
+				has_spaceport_module = trade_station_1
+				}
+			}
+		}
+	}
+
+	immediate = {
+		##if = {
+			##limit = {
+			##	planet = {
+			##	has_spaceport_module = trade_station_1
+			##	}
+			##}
+			create_fleet = { name = "Trading Fleet" }
+			last_created_fleet = {
+					set_owner = event_target:trader_country
+					set_fleet_stance = passive
+					set_aggro_range_measure_from = self
+					set_aggro_range = 50
+					create_ship = {
+						name = "Protector"
+						design = "Protector"
+					}
+					create_ship = {
+						name = "Protector"
+						design = Protector
+					}
+					create_ship = {
+						name = "Protector"
+						design = Protector
+					}
+					create_ship = {
+						name = "Protector"
+						design = Protector
+					}
+					create_ship = {
+						name = "Protector"
+						design = Protector
+					}
+					create_ship = {
+						name = "Protector"
+						design = Protector
+					}
+					create_ship = {
+						name = "Barge"
+						design = Diaspora
+					}
+					set_location = ROOT
+					set_formation_scale = 1.6
+				}
+			
+			
+		##}
+	}
+	option = {
+		name = ok
+	}
+}

@@ -1,0 +1,71 @@
+ship_design = {
+	name = "Caravan_Gaurd"
+	ship_size = nomad_destroyer
+	
+	section = {
+		##### WEAPONS #####
+		template = "CARAVAN_GAURD_MID"
+		slot = "mid"
+		
+		component = {
+			slot = "SMALL_GUN_03"
+			template = "SMALL_BLUE_LASER"
+		}
+		component = {
+			slot = "SMALL_GUN_01"
+			template = "SMALL_BLUE_LASER"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "SMALL_BLUE_LASER"
+		}
+		component = {
+			slot = "SMALL_GUN_04"
+			template = "SMALL_BLUE_LASER"
+		}
+		
+		#### UTIL ####
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_FUSION_REACTOR"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_FUSION_REACTOR"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_FUSION_REACTOR"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_4"
+			template = "MEDIUM_FUSION_REACTOR"
+		}
+		component = {
+			slot = "MEDIUM_UTILITY_5"
+			template = "MEDIUM_FUSION_REACTOR"
+		}
+		component = {
+			slot = "SMALL_UTILITY_1"
+			template = "SMALL_SHIELD_2"
+		}
+		component = {
+			slot = "SMALL_UTILITY_2"
+			template = "SMALL_SHIELD_2"
+		}
+		component = {
+			slot = "SMALL_UTILITY_3"
+			template = "SMALL_SHIELD_2"
+		}
+		component = {
+			slot = "SMALL_UTILITY_4"
+			template = "SMALL_SHIELD_2"
+		}
+		component = {
+			slot = "SMALL_UTILITY_5"
+			template = "SMALL_SHIELD_2"
+		}
+	}
+	required_component="WARP_DRIVE_1"
+	required_component = "SHIP_THRUSTER_3"
+}

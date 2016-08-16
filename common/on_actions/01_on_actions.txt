@@ -1,0 +1,11 @@
+# No scope, like on_game_start
+on_yearly_pulse = {
+	events = {
+		tradeaction.1
+	}
+}
+on_press_begin = {
+	events = {
+		tradeaction.00
+	}
+}
