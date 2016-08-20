@@ -16,8 +16,8 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MASS_DRIVER_1"
+			slot = "large_GUN_01"
+			template = "large_MASS_DRIVER_1"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -52,8 +52,8 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_RED_LASER"
+			slot = "large_GUN_01"
+			template = "large_RED_LASER"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -88,8 +88,8 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_1"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_1"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -119,8 +119,8 @@ ship_design = {
 			template = "SMALL_MASS_DRIVER_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MASS_DRIVER_1"
+			slot = "large_GUN_01"
+			template = "large_MASS_DRIVER_1"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -158,8 +158,8 @@ ship_design = {
 			template = "SMALL_RED_LASER"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_RED_LASER"
+			slot = "large_GUN_01"
+			template = "large_RED_LASER"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -197,8 +197,8 @@ ship_design = {
 			template = "SMALL_MISSILE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_1"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_1"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -290,8 +290,8 @@ ship_design = {
 			template = "SMALL_ARMOR_1"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ARMOR_1"
+			slot = "large_UTILITY_1"
+			template = "large_ARMOR_1"
 		}
 	}
 }
@@ -325,8 +325,8 @@ ship_design = {
 			template = "SMALL_FUSION_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ARMOR_1"
+			slot = "large_UTILITY_1"
+			template = "large_ARMOR_1"
 		}
 	}
 }
@@ -348,12 +348,12 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_1"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MISSILE_1"
+			slot = "large_GUN_02"
+			template = "large_MISSILE_1"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -364,12 +364,12 @@ ship_design = {
 			template = "SMALL_FISSION_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_FISSION_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_FISSION_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_FISSION_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_FISSION_REACTOR"
 		}
 	}
 }

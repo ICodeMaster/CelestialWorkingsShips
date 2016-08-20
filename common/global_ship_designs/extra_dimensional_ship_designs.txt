@@ -22,20 +22,20 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_03"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_04"
+			template = "large_ED_WEAPON"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -83,7 +83,7 @@ ship_design = {
 	required_component="SHIP_THRUSTER_3"
 }
 
-# Extradimensional Medium Ship
+# Extradimensional large Ship
 ship_design = {
 	name = "Phantom"
 	ship_size = medium_ship_ed
@@ -97,16 +97,16 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_01"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -133,20 +133,20 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -164,32 +164,32 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -223,20 +223,20 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_04"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -271,7 +271,7 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}
@@ -288,39 +288,39 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_04"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_3"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
-	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+	required_component="STATION_large_AURA_MINEFIELD_1"
 }
 
 # Extradimensional Constructor
@@ -333,8 +333,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	
@@ -366,20 +366,20 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_03"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_04"
+			template = "large_ED_WEAPON"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -427,13 +427,13 @@ ship_design = {
 	required_component="SHIP_THRUSTER_3"
 }
 
-# Extradimensional Medium Ship
+# Extradimensional large Ship
 ship_design = {
 	name = "Assassin"
-	ship_size = medium_ship_ed
+	ship_size = large_ship_ed
 	country_type = extradimensional
 	section = {
-		template = "ed_medium_orange_warship_key"
+		template = "ed_large_orange_warship_key"
 		slot = "mid"
 		
 		component = {
@@ -441,16 +441,16 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_01"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -477,20 +477,20 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -508,32 +508,32 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -599,7 +599,7 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}
@@ -616,39 +616,39 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_04"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_3"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
-	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+	required_component="STATION_large_AURA_MINEFIELD_1"
 }
 
 # Extradimensional Constructor
@@ -661,8 +661,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	
@@ -694,20 +694,20 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_03"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_04"
+			template = "large_ED_WEAPON"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -755,13 +755,13 @@ ship_design = {
 	required_component="SHIP_THRUSTER_3"
 }
 
-# Extradimensional Medium Ship
+# Extradimensional large Ship
 ship_design = {
 	name = "Annihilator"
-	ship_size = medium_ship_ed
+	ship_size = large_ship_ed
 	country_type = extradimensional
 	section = {
-		template = "ed_medium_green_warship_key"
+		template = "ed_large_green_warship_key"
 		slot = "mid"
 		
 		component = {
@@ -769,16 +769,16 @@ ship_design = {
 			template = "LARGE_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_01"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
 			slot = "SMALL_GUN_01"
@@ -805,20 +805,20 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -836,32 +836,32 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_02"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
 	required_component="JUMP_DRIVE_1"
@@ -927,7 +927,7 @@ ship_design = {
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}
@@ -944,39 +944,39 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_ED_WEAPON"
+			slot = "large_GUN_02"
+			template = "large_ED_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_03"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_PROBE_LIGHTNING"
+			slot = "large_GUN_04"
+			template = "large_PROBE_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_5"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_3"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ZERO_POINT_REACTOR"
+			slot = "large_UTILITY_4"
+			template = "large_ZERO_POINT_REACTOR"
 		}
 	}
-	required_component="STATION_MEDIUM_AURA_MINEFIELD_1"
+	required_component="STATION_large_AURA_MINEFIELD_1"
 }
 
 # Extradimensional Constructor
@@ -989,8 +989,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	
@@ -1010,7 +1010,7 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}
@@ -1025,7 +1025,7 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}
@@ -1040,7 +1040,7 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "large_UTILITY_1"
 			template = "BORDER_EXTRUDER_3"
 		}
 	}

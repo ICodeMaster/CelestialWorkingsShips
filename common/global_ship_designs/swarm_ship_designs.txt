@@ -20,11 +20,11 @@ ship_design = {
 			template = "LARGE_SCOURGE_MISSILE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
+			slot = "large_GUN_01"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
+			slot = "large_GUN_02"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
@@ -36,8 +36,8 @@ ship_design = {
 			template = "LARGE_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	required_component="WARP_DRIVE_3"
@@ -87,8 +87,8 @@ ship_design = {
 			template = "LARGE_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	required_component="WARP_DRIVE_3"
@@ -118,12 +118,12 @@ ship_design = {
 			template = "SMALL_SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ARMOR_5"
+			slot = "large_UTILITY_1"
+			template = "large_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	required_component="WARP_DRIVE_3"
@@ -161,23 +161,23 @@ ship_design = {
 			template = "LARGE_SCOURGE_MISSILE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
+			slot = "large_GUN_01"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
+			slot = "large_GUN_02"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
+			slot = "large_GUN_03"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
+			slot = "large_GUN_04"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_05"
+			slot = "large_GUN_05"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
@@ -209,8 +209,8 @@ ship_design = {
 			template = "LARGE_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 }
@@ -253,20 +253,20 @@ ship_design = {
 			template = "SWARM_STRIKE_CRAFT"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ARMOR_5"
+			slot = "large_UTILITY_1"
+			template = "large_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ARMOR_5"
+			slot = "large_UTILITY_2"
+			template = "large_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_5"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_4"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 }
@@ -297,15 +297,15 @@ ship_design = {
 			template = "LARGE_SCOURGE_MISSILE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
+			slot = "large_GUN_01"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
+			slot = "large_GUN_02"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
+			slot = "large_GUN_03"
 			template = "SCOURGE_PROJECTILE_WEAPON"
 		}
 		component = {
@@ -333,8 +333,8 @@ ship_design = {
 			template = "LARGE_ARMOR_5"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	required_component="WARP_DRIVE_3"
@@ -353,8 +353,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	
@@ -373,8 +373,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	
@@ -393,8 +393,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	

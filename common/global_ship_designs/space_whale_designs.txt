@@ -20,7 +20,7 @@ ship_design = {
 	required_component="WARP_DRIVE_3"
 }
 
-# Medium Space Whale
+# large Space Whale
 ship_design = {
 	name = "Tiyanki Bull"
 	ship_size = space_whale_2
@@ -31,8 +31,8 @@ ship_design = {
 		slot = "mid"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_SPACE_WHALE_WEAPON"
+			slot = "large_GUN_01"
+			template = "large_SPACE_WHALE_WEAPON"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"

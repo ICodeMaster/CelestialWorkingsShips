@@ -29,8 +29,8 @@ ship_design = {
 			template = "SMALL_SPACE_CLOUD_LIGHTNING"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_AUTO_REPAIR"
+			slot = "large_UTILITY_1"
+			template = "large_AUTO_REPAIR"
 		}
 	}
 	required_component="COMBAT_COMPUTER_AGGRESSIVE_BASIC"

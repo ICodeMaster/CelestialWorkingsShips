@@ -20,12 +20,12 @@ ship_design = {
 			template = "SMALL_XRAY_LASER"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_DISRUPTOR_2"
+			slot = "large_GUN_01"
+			template = "large_DISRUPTOR_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_DISRUPTOR_2"
+			slot = "large_GUN_02"
+			template = "large_DISRUPTOR_2"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -40,16 +40,16 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_3"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_SHIELD_3"
+			slot = "large_UTILITY_3"
+			template = "large_SHIELD_3"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -87,12 +87,12 @@ ship_design = {
 			template = "SMALL_PLASMA_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PLASMA_2"
+			slot = "large_GUN_01"
+			template = "large_PLASMA_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -130,12 +130,12 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_XRAY_LASER"
+			slot = "large_GUN_01"
+			template = "large_XRAY_LASER"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_XRAY_LASER"
+			slot = "large_GUN_02"
+			template = "large_XRAY_LASER"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -166,20 +166,20 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_3"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_SHIELD_3"
+			slot = "large_UTILITY_4"
+			template = "large_SHIELD_3"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -229,20 +229,20 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_TORPEDO_2"
+			slot = "large_GUN_01"
+			template = "large_TORPEDO_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_TORPEDO_2"
+			slot = "large_GUN_02"
+			template = "large_TORPEDO_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_03"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_04"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -265,36 +265,36 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_4"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_2"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 	}
 	required_component = "WARP_DRIVE_2"
@@ -328,20 +328,20 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_02"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_03"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_04"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -364,36 +364,36 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_4"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_2"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 	}
 	required_component = "WARP_DRIVE_2"
@@ -427,20 +427,20 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_02"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_03"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_04"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -463,36 +463,36 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_4"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_2"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 	}
 	required_component = "WARP_DRIVE_2"
@@ -526,20 +526,20 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_02"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_03"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_04"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -562,36 +562,36 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_4"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_2"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 	}
 	required_component = "WARP_DRIVE_2"
@@ -625,20 +625,20 @@ ship_design = {
 			template = "POINT_DEFENCE_1"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_01"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MISSILE_3"
+			slot = "large_GUN_02"
+			template = "large_MISSILE_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_03"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_04"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "large_GUN_04"
+			template = "large_MASS_DRIVER_3"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -661,36 +661,36 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_2"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			slot = "large_UTILITY_4"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_2"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_3"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_4"
-			template = "MEDIUM_ARMOR_2"
+			template = "large_ARMOR_2"
 		}
 	}
 	required_component = "WARP_DRIVE_2"
@@ -720,12 +720,12 @@ ship_design = {
 			template = "POINT_DEFENCE_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PLASMA_2"
+			slot = "large_GUN_01"
+			template = "large_PLASMA_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PLASMA_2"
+			slot = "large_GUN_02"
+			template = "large_PLASMA_2"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -740,16 +740,16 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_3"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_3"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_3"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -799,12 +799,12 @@ ship_design = {
 			template = "SMALL_SHIELD_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_SHIELD_2"
+			slot = "large_UTILITY_1"
+			template = "large_SHIELD_2"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_RECHARGER"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_RECHARGER"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -834,12 +834,12 @@ ship_design = {
 			template = "SMALL_MASS_DRIVER_3"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_AUTOCANNON_2"
+			slot = "large_GUN_01"
+			template = "large_AUTOCANNON_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_AUTOCANNON_2"
+			slot = "large_GUN_02"
+			template = "large_AUTOCANNON_2"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -850,12 +850,12 @@ ship_design = {
 			template = "SMALL_ARMOR_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ARMOR_3"
+			slot = "large_UTILITY_1"
+			template = "large_ARMOR_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ARMOR_3"
+			slot = "large_UTILITY_2"
+			template = "large_ARMOR_3"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -976,12 +976,12 @@ ship_design = {
 			template = "SMALL_RED_LASER"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_RED_LASER"
+			slot = "large_GUN_01"
+			template = "large_RED_LASER"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_RED_LASER"
+			slot = "large_GUN_02"
+			template = "large_RED_LASER"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -1007,12 +1007,12 @@ ship_design = {
 			template = "SMALL_RED_LASER"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_2"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_2"
 		}
 	}
 }
@@ -1039,12 +1039,12 @@ ship_design = {
 			template = "POINT_DEFENCE_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_PLASMA_2"
+			slot = "large_GUN_01"
+			template = "large_PLASMA_2"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_PLASMA_2"
+			slot = "large_GUN_02"
+			template = "large_PLASMA_2"
 		}
 		component = {
 			slot = "LARGE_GUN_01"
@@ -1059,16 +1059,16 @@ ship_design = {
 			template = "LARGE_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "large_UTILITY_1"
+			template = "large_ANTIMATTER_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_SHIELD_3"
+			slot = "large_UTILITY_2"
+			template = "large_SHIELD_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ARMOR_3"
+			slot = "large_UTILITY_3"
+			template = "large_ARMOR_3"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
