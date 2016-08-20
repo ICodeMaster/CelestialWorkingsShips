@@ -1,0 +1,54 @@
+
+############### Supercarrier ##################	
+	pdxmesh = {
+		name = "mammalian_01_supercarrier_bow_H_mesh"
+		file = "gfx/models/ships/mammalian_01/icode_supercarrier_bow_h.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "bow_HShape"
+			index = 0
+#			texture_diffuse = "icode_supercarrier_diffuse.dds"
+#			texture_normal = "icode_supercarrier_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "mammalian_01_supercarrier_mid_1_H_mesh"
+		file = "gfx/models/ships/mammalian_01/icode_supercarrier_mid1_h.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "mid1_HShape"
+			index = 0
+	#		texture_diffuse = "icode_supercarrier_diffuse.dds"
+	#		texture_normal = "icode_supercarrier_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "mammalian_01_supercarrier_mid_2_H_mesh"
+		file = "gfx/models/ships/mammalian_01/icode_supercarrier_mid2_h.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "mid2_HShape"
+			index = 0
+		#	texture_diffuse = "icode_supercarrier_diffuse.dds"
+		#	texture_normal = "icode_supercarrier_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "mammalian_01_supercarrier_stern_H_mesh"
+		file = "gfx/models/ships/mammalian_01/icode_supercarrier_stern_h.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "stern_HShape"
+			index = 0
+		#	texture_diffuse = "icode_supercarrier_diffuse.dds"
+		#	texture_normal = "icode_supercarrier_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}

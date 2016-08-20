@@ -1,5 +1,5 @@
-@carrierscale = 10.0
-
+@carrierscale = 16.0
+@scout_scale = 1.0
 ############## Launcher Entities ######################
 entity = {
 	name = "launcher_missle1_entity"
@@ -11,10 +11,10 @@ entity = {
 ##### SCOUT #########
 entity = {
 	name = "scout_entity"
-	pdxmesh = "scout_mesh"
 	default_state = "idle"
 	state = { name = "idle" state_time = 5 }
 	state = { name = "moving" state_time = 5 }
+	scale = @scout_scale
 }
 entity = {
 	name = "scout_s1_entity"

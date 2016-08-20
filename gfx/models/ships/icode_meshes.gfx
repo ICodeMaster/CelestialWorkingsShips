@@ -2,7 +2,7 @@
 objectTypes = {
 	pdxmesh = {
 		name = "scout_s1_mesh"
-		file = "gfx/models/ships/scout_s1.mesh"
+		file = "gfx/models/ships/scout_mesh.mesh"
 		scale = 1.0
 
 		meshsettings = {
@@ -15,11 +15,6 @@ objectTypes = {
 		}
 	
 		
-	}
-		pdxmesh = {
-		name = "scout_mesh"
-		scale = 1.0
-
 	}
 ############### Supercarrier ##################	
 	pdxmesh = {
